@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/* ----------------------------------------Special paddings/margins/text */
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.general-sub {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    }
+
+.inline-block {
+    display: inline-block;
+}
+
+
+/*---------------------------------Heading*/
+header {
+    margin:0;
+    font-family: 'Gugi', cursive;
+}
+
+.logo {
+    background: url("../images/band1.jpg"); /* background image of the band */
+    background-size: cover;
+    min-height: 500px;
+}
+
+
+/*-------------------------------Navigation*/
+.container-fluid {
+    display: inline;
+    padding: 10px 0;
+    min-width: 768px;
+}
+
+.nav-item {
+    margin-left: 40px;
+}
+
+
+/* --------------------------------------Footer */
+
+footer {
+    background-color: #fafafa;
+    margin-top: 5px;
+    border-top-style: groove;
+    }
+
+.footer-position{
+    padding: 2%; 
+    display: list-item;
+    text-align: center;
+    }
+    
+.social-links li a i{   /* adjusting social media icons */
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 18px;
+    line-height: 10px;
+    background: #F5B179; /* rgba colour picked from https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool */
+    transition: all 0.35s, ease-in-out;
+    -moz-transition: all 0.35s, ease-in-out;
+    -webkit-transition: all 0.35s, ease-in-out;
+    -o-transition: all 0.35s, ease-in-out;
+}
+
+.ticket-link li a i{
+    width: 70px;
+    height: 40px;
+    padding: 12px 0;
+    font-size: 18px;
+    line-height: 10px;
+    transition: all 0.35s, ease-in-out;
+    -moz-transition: all 0.35s, ease-in-out;
+    -webkit-transition: all 0.35s, ease-in-out;
+    -o-transition: all 0.35s, ease-in-out;
+}
+
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
